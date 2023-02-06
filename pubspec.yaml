@@ -1,0 +1,54 @@
+name: vakinha_burguer_bloc
+description: A new Flutter project.
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=2.18.5 <3.0.0'
+
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.5
+  flutter_dotenv: ^5.0.2
+  dio: ^4.0.6
+  provider: ^6.0.5
+  intl: ^0.18.0
+  loading_animation_widget: ^1.2.0+4
+  top_snackbar_flutter: ^3.0.0+1
+  bloc: ^8.1.0
+  flutter_bloc: ^8.1.1
+  equatable: ^2.0.5
+  match: ^0.4.1
+  auto_size_text: ^3.0.0
+  shared_preferences: ^2.0.16
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.1
+  build_runner: ^2.3.3
+  match_generator: ^0.4.1
+
+flutter:
+  uses-material-design: true
+  assets:
+     - assets/images/
+     - .env
+  fonts:
+    - family: mplus1
+      fonts:
+        - asset: assets/fonts/mplus1/MPLUS1p-Light.ttf
+          weight: 300
+        - asset: assets/fonts/mplus1/MPLUS1p-Regular.ttf
+          style: normal
+        - asset: assets/fonts/mplus1/MPLUS1p-Medium.ttf
+          weight: 500
+        - asset: assets/fonts/mplus1/MPLUS1p-Bold.ttf
+          weight: 700
+        - asset: assets/fonts/mplus1/MPLUS1p-ExtraBold.ttf
+          weight: 800
+
